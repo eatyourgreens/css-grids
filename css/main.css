@@ -43,11 +43,19 @@ main section {
 }
 
 main section h3 {
-  float: left;
-  shape-outside: circle(110% at top left) margin-box;
   padding: 0 .9em 0 0;
-  margin:  .9em 0 1.8em 0;
+  margin:  .9em 0 .9em 0;
   font-size:  1.2em;
+}
+
+main section::before {
+  background: url('../img/zooniverse.svg');
+  content: '';
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin: 0 10px 10px 0;
+  shape-outside: circle(120% at top right) margin-box;
 }
 aside {
   grid-column: 2;
