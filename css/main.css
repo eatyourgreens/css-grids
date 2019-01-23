@@ -6,6 +6,8 @@ body {
   background: #fffefd;
   color: #000102;
   margin: .5em;
+  font-size: .9em;
+  line-height: 1.5;
 }
 
 body > * {
@@ -38,6 +40,14 @@ main section {
   background: #a9b2e0;
   color: #333;
   padding: 0 .5em .5em;
+}
+
+main section h3 {
+  float: left;
+  shape-outside: circle(110% at top left) margin-box;
+  padding: 0 .9em 0 0;
+  margin:  .9em 0 1.8em 0;
+  font-size:  1.2em;
 }
 aside {
   grid-column: 2;
